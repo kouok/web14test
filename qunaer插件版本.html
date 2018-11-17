@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="stylesheet" href="font_895357_xzymfnwngx/iconfont.css">
+	<link rel="stylesheet" href="css/qunaer.css">
+	<script>
+		var html = document.documentElement;
+		// console.log(html)
+		var wHtml = html.getBoundingClientRect().width;
+		console.log(wHtml)
+		html.style.fontSize = wHtml/7.5+'px'
+		//  font-size = 15px
+		//  分成15份
+	</script>
+	<script src="js/TouchSlide.1.1.js">
+	</script>
+</head>
+<body>
+	<div class="box">
+		<!-- 顶部蓝色搜索部分 -->
+		<div class="header">
+			<a href="">
+				<i class="iconfont icon-icon4"></i>
+			</a>
+			<a class="ssl">
+				<i class="iconfont icon-fangdajing"></i>
+				<span>
+					输入城市/景点/游玩主题
+				</span>
+			</a>
+			<div class="chengshi">
+				长沙<i class="iconfont icon-tubiaozhizuo-"></i>
+			</div>
+		</div>
+		<!-- 图片轮播 -->
+		<div id="focus" class="focus">
+			<div class="xyd_box">
+				<ul></ul>
+			</div>
+			<div class="lbimg">
+				<ul>
+					<li>
+						<img src="img/1.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/2.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/3.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/4.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/5.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/6.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/7.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/8.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/9.jpg" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 景点门票 -->
+		<div id="qn_jdmp" class="qn_jdmp">
+			<div class="jdmp_inner">
+				<ul>
+					<li>
+						<div class="jd_inner">
+							<img src="img/1.png" alt="">
+							<span>景点门票</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/2.png" alt="">
+							<span>游乐场</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/3.png" alt="">
+							<span>长沙必玩</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/4.png" alt="">
+							<span>亲子游</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/5.png" alt="">
+							<span>一日游</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/6.png" alt="">
+							<span>动植物园</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/7.png" alt="">
+							<span>主题乐园</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/8.png" alt="">
+							<span>湘西凤凰</span>
+						</div>
+					</li>
+					<li>
+						<div class="jd_inner">
+							<img src="img/9.png" alt="">
+							<span>打卡圣地</span>
+						</div>
+						<div class="jd_inner">
+							<img src="img/10.png" alt="">
+							<span>全部玩乐</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="jd_box">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 定位服务 -->
+		<div class="qn_dw">
+			<a class="dw_inner">
+				<i class="iconfont icon-location">
+				</i>
+				<span>定位失败</span>
+			</a>
+			<a class="dw_inner bn">
+				<i class="iconfont icon-icon35">
+				</i>
+				<span>玩水季</span>
+			</a>
+		</div>
+		<!-- 门票热卖 -->
+		<div class="qn_mp">
+			<a class="mp_inner">
+			</a>
+			<a class="mp_inner1 bn">
+			</a>
+		</div>
+		<!-- 本周热门榜单 -->
+		<div class="qn_rm">
+			<div class="rm_top">
+				<img src="img/huo.png" alt="">
+				<span class="mp-title">本周热门榜单</span>
+				<span class="rm_top_fr fr">全部榜单<i class="iconfont icon-icon-arrow-right2"></i></span>
+			</div>
+			<ul class="rm_box">
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm1.jpg" alt="">
+						<i class="rm1"></i>
+						<p>
+							长沙生态动物园
+						</p>
+						<span>
+							<i>
+								¥<s>105</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm2.jpg" alt="">
+						<i class="rm2"></i>
+						<p>
+							长沙世界之窗
+						</p>
+						<span>
+							<i>
+								¥<s>75</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm3.jpg" alt="">
+						<i class="rm3"></i>
+						<p>
+							大型歌舞《炭河千古情》
+						</p>
+						<span>
+							<i>
+								¥<s>160</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm4.jpg" alt="">
+						<p>
+							新华联铜官窑古镇
+						</p>
+						<span>
+							<i>
+								¥<s>19.9</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm5.jpg" alt="">
+						<p>
+							宁乡炭河古城
+						</p>
+						<span>
+							<i>
+								¥<s>160</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm6.jpg" alt="">
+						<p>
+							刘少奇纪念馆
+						</p>
+						<span>
+							<i>
+								¥<s>2.3</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm7.jpg" alt="">
+						<p>
+							长沙摩天轮
+						</p>
+						<span>
+							<i>
+								¥<s>65</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm8.png" alt="">
+						<p>
+							关山古镇
+						</p>
+						<span>
+							<i>
+								¥<s>42</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm9.jpg" alt="">
+						<p>
+							石燕湖
+						</p>
+						<span>
+							<i>
+								¥<s>105</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+				<li class="rm_inner">
+					<a href="">
+						<img src="img/rm10.jpg" alt="">
+						<p>
+							刘少奇故里门楼
+						</p>
+						<span>
+							<i>
+								¥<s>40</s>
+							</i>
+							起
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 猜你喜欢 -->
+		<div class="qn_cn">
+			<div class="rm_top">
+				<img src="img/xin.png" alt="">
+				<span class="mp-title">猜你喜欢</span>
+			</div>
+			<ul class="cn_box">
+					<li class="cn_inner clearfix">
+						<a class="cn_left">
+							<img src="img/cn1.jpg" alt="">
+							<div class="mr">
+								可订明日
+							</div>
+						</a>
+						<div class="cn_right">
+							<p>
+								宁乡炭河古城
+							</p>
+							<div class="xx_box">
+								<div class="xx_inner">
+									<div class="xx_h">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+									<div class="xx_y">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+								</div>
+								<span>4414条评论</span>
+							</div>
+							<div class="cn_jg clearfix">
+								<div class="fl">
+									<span>
+										¥
+										<i>160</i>
+									</span>
+									起
+								</div>
+								<div class="fr">
+									宁乡县
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cn_inner clearfix">
+						<a class="cn_left">
+							<img src="img/cn2.jpg" alt="">
+							<div class="sm">
+								随买随用
+							</div>
+						</a>
+						<div class="cn_right">
+							<p>
+								长沙生态动物园
+							</p>
+							<div class="xx_box">
+								<div class="xx_inner">
+									<div class="xx_h">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+									<div class="xx_y">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+								</div>
+								<span>8100条评论</span>
+							</div>
+							<div class="cn_jg clearfix">
+								<div class="fl">
+									<span>
+										¥
+										<i>105</i>
+									</span>
+									起
+								</div>
+								<div class="fr">
+									长沙县
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cn_inner clearfix">
+						<a class="cn_left">
+							<img src="img/cn3.jpg" alt="">
+							<div class="mr">
+								可订明日
+							</div>
+						</a>
+						<div class="cn_right">
+							<p>
+								新华联铜官窑古镇
+							</p>
+							<div class="xx_box">
+								<div class="xx_inner">
+									<div class="xx_h">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+									<div class="xx_y" style="width: 90%;">
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+										<i class="iconfont icon-xingxing"></i>
+									</div>
+								</div>
+								<span>60条评论</span>
+							</div>
+							<div class="cn_jg clearfix">
+								<div class="fl">
+									<span>
+										¥
+										<i>98</i>
+									</span>
+									起
+								</div>
+								<div class="fr">
+									望城县县
+								</div>
+							</div>
+							<div class="mp-like-feature">
+								世界釉下彩瓷的发源地
+							</div>
+						</div>
+					</li>
+			</ul>
+			<a>
+				查看所有产品
+			</a>
+		</div>
+		<!-- 周末去哪儿 -->
+		<div class="qn_zm">
+			<h2>
+				周末去哪儿
+			</h2>
+			<a class="zm_inner">
+				<img src="img/zm1.jpg" alt="">
+				<p>
+					<span>
+						湖南泡汤圣地
+					</span>
+					<i>
+						天冷了，湖南的朋友们来这泡汤吧
+					</i>
+				</p>
+			</a>
+			<a class="zm_inner">
+				<img src="img/zm2.jpg" alt="">
+				<p>
+					<span>
+						边城秋色
+					</span>
+					<i>
+						不得不看的边城秋日之美
+					</i>
+				</p>
+			</a>
+			<a class="zm_inner">
+				<img src="img/zm3.jpg" alt="">
+				<p>
+					<span>
+						长沙必游TOP10
+					</span>
+					<i>
+						到了长沙，一定要到这些地方走走
+					</i>
+				</p>
+			</a>
+			<a class="zm_inner">
+				<img src="img/zm4.jpg" alt="">
+				<p>
+					<span>
+						玩味童年
+					</span>
+					<i>
+						幸福之家，快乐成长
+					</i>
+				</p>
+			</a>
+			<a class="zm_inner">
+				<img src="img/zm5.jpg" alt="">
+				<p>
+					<span>
+						张家界必游TOP10
+					</span>
+					<i>
+						到张家界最值得游玩的地方
+					</i>
+				</p>
+			</a>
+		</div>
+		<!-- 票面价 -->
+		<div class="qn_pmj">
+			<i></i>
+			<b>票面价</b>
+			是指通过景区指定窗口售卖的纸质门票上标注的价格
+		</div>
+		<div class="qn_pw">
+			<ul>
+				<li class="pw_inner">
+					<a href="">
+						<i class="fj"></i>
+						<span>机票</span>
+					</a>
+				</li>
+				<li class="pw_inner">
+					<a href="">
+						<i class="jd"></i>
+						<span>酒店</span>
+					</a>
+				</li>
+				<li class="pw_inner">
+					<a href="">
+						<i class="gy"></i>
+						<span>公寓</span>
+					</a>
+				</li>
+				<li class="pw_inner1">
+					<span>
+						更多
+					</span>
+					<i>
+						
+					</i>
+				</li>
+			</ul>
+		</div>
+		<div class="botton clearfix">
+			<div class="bt_text">
+				<a href="">登录</a>
+			</div>
+			<div class="bt_text">
+				<a href="">我的订单</a>
+			</div>
+			<div class="bt_text">
+				<a href="">最近浏览</a>
+			</div>
+			<div class="bt_text">
+				<a href="">关于我们</a>
+			</div>
+		</div>
+		<div class="qn_dn">
+			<span class="">触屏版</span>
+			<span class="qn_bb">电脑版</span>
+		</div>
+		<span class="qn_bt">
+			<i>
+				Qunar 京ICP备05021087
+			</i>
+			<a href="">意见反馈</a>
+		</span>
+	</div>
+	<script>
+		TouchSlide({
+		    slideCell: "#focus",
+		    titCell: ".xyd_box ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		    mainCell: ".lbimg ul",
+		    effect: "left",
+		    autoPlay: true, //自动播放
+		    autoPage: true, //自动分页
+		    titOnClassName: 'xyd_b'
+		});
+		TouchSlide({
+		    slideCell: "#qn_jdmp",
+		    titCell: ".jd_box ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		    mainCell: ".jdmp_inner ul",//内容部分
+		    effect: "left",
+		    autoPage: true, //自动分页
+		    titOnClassName: 'xyd_l'
+		});
+	</script>
+</body>
+</html>
